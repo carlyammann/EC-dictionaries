@@ -13,6 +13,7 @@ for line in infile:
     for word in words_to_count: 
         word_counts[word] += words.count(word)
 
+        
 for word,count in word_counts.items(): 
     print(f'{word}: {count}')
 
